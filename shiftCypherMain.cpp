@@ -46,8 +46,6 @@ int main() {
 	cout << "Please insert the number you would like to offset your message." << endl;
 	cin >> rotateNum;
 
-	rotateNum = -3;
-
 	for (int i = 0; i < mystring.length(); i++) {
 		cout << rotateChar(mystring[i], rotateNum);
 	}
