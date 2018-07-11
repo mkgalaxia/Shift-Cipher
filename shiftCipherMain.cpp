@@ -4,7 +4,6 @@ using namespace std;
 
 char rotateChar(char myChar, int rotateNum) {
 	if (myChar >= 48 && myChar <= 57) {
-		myChar -= 3;
 		myChar += (rotateNum % 10);
 		if (myChar > 57) {
 			myChar -= 10;
